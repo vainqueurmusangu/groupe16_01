@@ -1,22 +1,21 @@
 # Demande d'information à l'utilisateur
 
-try:
-    prenom = str(input("Entrez votre prénom svp: "))
-    age = int(input("Entrez votre âge svp: "))
-    ville = str(input("Entrez votre ville svp: "))
-    metier = str(input("Entrez votre métier svp: "))
 
-    # Approximation des jours vécus
+prenom = str(input("Entrez votre prénom svp: "))
+age = int(input("Entrez votre âge svp: "))
+ville = str(input("Entrez votre ville svp: "))
+metier = str(input("Entrez votre métier svp: "))
 
-    jours_vecu = age * 365
+# Approximation des jours vécus
 
-    # Affichage formaté
+jours_vecu = age * 365
 
-    print(f'\n==== PROFIL UTILISATEUR ====')
-    print(f'Prénom: {prenom}')
-    print(f'Âge: {age} ans {jours_vecu} jours vécus environ')
-    print(f'Ville: {ville}')
-    print(f'Métier: {metier}')
-except ValueError:
-    print(f'Veillez saisir les données valides svp!')
+# Affichage formaté
+
+print(f'\n==== PROFIL UTILISATEUR ====')
+print(f'Prénom: {prenom}')
+print(f'Âge: {age} ans {jours_vecu} jours vécus environ')
+print(f'Ville: {ville}')
+print(f'Métier: {metier}')
+
 
