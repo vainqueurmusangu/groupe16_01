@@ -18,6 +18,5 @@ try:
     print(f'Ville: {ville}')
     print(f'Métier: {metier}')
 except ValueError:
-    print("bonjour")
     print(f'Veillez saisir les données valides svp!')
 
