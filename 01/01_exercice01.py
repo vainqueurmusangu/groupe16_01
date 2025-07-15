@@ -1,9 +1,9 @@
 # Demande d'information à l'utilisateur
 
 try:
-    prenom = str(input("Entrer votre prénom svp: "))
-    age = int(input("Entrer votre âge svp: "))
-    ville = str(input("Entrer votre ville svp: "))
+    prenom = str(input("Entrez votre prénom svp: "))
+    age = int(input("Entrez votre âge svp: "))
+    ville = str(input("Entrez votre ville svp: "))
     metier = str(input("Entrez votre métier svp: "))
 
     # Approximation des jours vécus
